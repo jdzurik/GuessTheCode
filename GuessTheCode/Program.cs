@@ -17,7 +17,7 @@ namespace GuessTheCode
             }
 
             string LockCode = string.Join("", LockCodes);
-            Console.WriteLine("Welcome! please guess the 4 digit code: " + LockCode);
+            Console.WriteLine("Welcome! Please guess the 4 digit code: ");
             string guess;
             int guessCount = 0;
             string guessResultFinal = "Sorry you are out of guesses.";
